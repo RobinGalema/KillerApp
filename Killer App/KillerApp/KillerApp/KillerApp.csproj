@@ -70,6 +70,7 @@
     </Compile>
     <Compile Include="Game.cs" />
     <Compile Include="Genre.cs" />
+    <Compile Include="players.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
