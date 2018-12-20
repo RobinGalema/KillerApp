@@ -8,5 +8,19 @@ namespace KillerApp
 {
     class Developper
     {
+        // Fields
+        private string name;
+        private List<Game> games = new List<Game>();
+
+        // Constructor
+        public Developper(string name, List<Game> games)
+        {
+            this.name = name;
+            this.games = games;
+        }
+
+        // Properties
+        public string Name { get => name; private set => name = value; }
+        public List<Game> Games { get => games; private set => games = value; }
     }
 }
